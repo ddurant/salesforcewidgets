@@ -1,0 +1,32 @@
+/* ---------------------------------------------------------
+   3. Footer site styles
+   ---------------------------------------------------------*/
+
+/* footer styles */
+#footer {
+	box-shadow: 0 -1px 0 #ebebeb;
+	background-color: #f8f8f8;box-shadow: 0 -1px 0 #ebebeb;
+	background-color: #f8f8f8;
+	padding: 15px 0;
+
+	.container {
+
+		@include media('>=desktop') {
+			max-width: 723px;
+		}
+	}
+
+/* copyright styles */
+	.copyright {
+		font-size: 11px;
+		color: $gray;
+
+		a {
+			color: inherit;
+
+			&:hover {
+				color: $brand-primary;
+			}
+		}
+	}
+}
