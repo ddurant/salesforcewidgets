@@ -1,2 +1,158 @@
-# salesforcewidgets
-under construction
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- set the encoding of your site -->
+	<meta charset="utf-8">
+	<!-- set the viewport width and initial-scale on mobile devices -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Sales Force Widgets</title>
+	<!-- include the site stylesheet -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/main.css">
+	<!-- include jQuery library -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js" defer></script>
+	<script>window.jQuery || document.write('<script src="js/jquery-1.12.4.min.js"><\/script>')</script>
+	<!-- include Bootstrap JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<!-- include custom JavaScript -->
+	<script src="js/jquery.main.js" defer></script>
+</head>
+<body>
+	<!-- main container of all the page elements -->
+	<div id="wrapper">
+		<!-- header of the page -->
+		<header class="header">
+			<!-- main navigation of the page -->
+			<nav class="navbar navbar-default">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-1" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<!-- page logo -->
+						<a class="navbar-brand" href="#"><img src="images/logo.svg" alt="brand logo" width="31" height="20"></a>
+					</div>
+					<div class="collapse navbar-collapse" id="bs-1">
+						<ul class="navbar-right nav navbar-nav">
+							<li><a href="#">home</a></li>
+							<li><a href="#">about US</a></li>
+							<li><a href="#">pricing</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<!-- contain main informative part of the site -->
+		<main id="main">
+			<div class="intro">
+				<div class="container">
+					<!-- the title of the site  -->
+					<div class="content-box">
+						<strong class="text">creating a widget to solve each salesforce problem</strong>
+						<h1><mark>Welcome the</mark> widget superstore.</h1>
+						<form class="form-mail">
+							<div class="form-group">
+								<input type="text" class="form-control" placeholder="david@salesforcewidgets.com">
+								<button class="btn-arrow" type="submit"><span class="icon-box"><img src="images/icon-circle.svg" alt="icon-circle"></span></button>
+							</div>
+						</form>
+					</div>
+					<!-- thumbnail links  -->
+					<div class="thumbnail-box">
+						<strong class="text">widgets:</strong>
+						<div class="row flex-row">
+							<div class="col-sm-6 col-xs-12">
+								<!-- thumbnail download link  -->
+								<a href="#" class="thumbnail">
+									<img src="images/calendar.svg" alt="calendar" width="36" height="37">
+									<div class="caption">
+										<h3>Meetings</h3>
+										<p>Keep track of all your sales meetings in an organized widget that is lightning ready.</p>
+										<div class="btn-download"><span class="icon-box"><img src="images/icon-download.svg" alt="icon-download"></span></div>
+									</div>
+								</a>
+							</div>
+							<div class="col-sm-6 col-xs-12">
+								<!-- thumbnail download link -->
+								<a href="#" class="thumbnail">
+									<img src="images/clock.svg" alt="clock" width="36" height="37">
+									<div class="caption">
+										<h3>Agenda</h3>
+										<p>Create sales meetings with robust agendas that you can email out as frequent as your want.</p>
+										<div class="btn-download"><span class="icon-box"><img src="images/icon-download.svg" alt="icon-download"></span></div>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- the main content  -->
+			<div class="block-media">
+				<div class="container">
+					<article class="media">
+						<div class="media-body">
+							<h2 class="media-heading">Meetings</h2>
+							<p>Meetings allows you to keep track of all your meetings in an organzied widget this is lightning ready for you to drag and drop on any page layout as needed. Meetings is customizable with the ability to customize even the meetings widget itself. </p>
+							<p>You can also add other individuals to meetings from other accounts just in case you have meetings with multiple accounts at the same time.</p>
+							<!-- links install -->
+							<a href="#" class="btn-arrow" data-toggle="modal" data-target="#Modal-1" ><span class="text">Install now</span><span class="icon-box"><img src="images/icon-circle.svg" alt="icon-circle"></span></a>
+						</div>
+						<div class="media-right">
+							<!-- image content  -->
+							<a href="#">
+								<img src="images/img-notepad.png" alt="images description" width="" height="">
+							</a>
+						</div>
+					</article>
+					<article class="media">
+						<div class="media-left">
+							<!-- image content  -->
+							<a href="#">
+								<img src="images/img-notepad-2.png" alt="images description" width="" height="">
+							</a>
+						</div>
+						<div class="media-body">
+							<h2 class="media-heading">Agenda</h2>
+							<p>Agenda is an awesome sales tool for admins! With Agenda you can create robust meeting agendas importing images from excel and any other tools you use to create sales reports. </p>
+							<p>The idea behind agenda was to have the ability to pull from reports inside salesforce to create a comprehensive dashboard with notes that you could email out to your sales team anytime you want!</p>
+							<!-- links install -->
+							<a href="#" class="btn-arrow" data-toggle="modal" data-target="#Modal-1"><span class="text">Install now</span><span class="icon-box"><img src="images/icon-circle.svg" alt="icon-circle"></span></a>
+						</div>
+					</article>
+				</div>
+			</div>
+		</main>
+		<!-- footer of the page -->
+		<footer id="footer">
+			<div class="container">
+				<span class="copyright">&copy; 2017 <a href="#">SalesForceWidgets.</a> All rights reserved</span>
+			</div>
+		</footer>
+	</div>
+	<!-- Modal -->
+	<div class="modal fade" id="Modal-1" tabindex="-1" role="dialog" aria-labelledby="Modal-1Label" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+				<div class="modal-header">
+					<span class="h1 modal-title" id="Modal-1Label">Enter email to get started!</span>
+				</div>
+				<div class="modal-body">
+					<form class="form-mail">
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="david@salesforcewidgets.com">
+							<button class="btn-arrow" type="submit"><span class="icon-box"><img src="images/icon-circle.svg" alt="icon-circle"></span></button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
